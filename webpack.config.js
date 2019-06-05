@@ -3,6 +3,7 @@ var webpack = require('webpack')
 
 const NODE_ENV = process.env.NODE_ENV
 
+console.log(NODE_ENV === 'production')
 module.exports = {
   entry: NODE_ENV === 'production' ? './src/lib/index.js' : './src/main.js',
   output: {

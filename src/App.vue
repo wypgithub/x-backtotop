@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <back-to-top></back-to-top>
+
+
     <img src="./assets/logo.png">
     <h1>{{ msg }}</h1>
     <h2>Essential Links</h2>
@@ -21,7 +23,7 @@
 </template>
 
 <script>
-export default {
+  export default {
   name: 'app',
   data () {
     return {
